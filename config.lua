@@ -18,6 +18,11 @@ Config.Notify = {
     success = 'success'
 }
 
+-- Enable or disable key mapping
+Config.UseKeyBind = false
+-- Key to associate at the function 
+Config.KeyBind = "j"
+
 -- Supported languages. If your language isn't available, you can add it here
 Config.Lang = {
     ['en'] = {
@@ -34,6 +39,7 @@ Config.Lang = {
         delDesc = "If you don't like the scene you can delete it!", 
         openTitle = "Open Rockstar Editor", 
         openDesc = "WARNING: You will be disconnected from the server!", 
+        infoKey = "Open the Rockstar Editor",
     },
     ['it'] = {
         recStart = "Registrazione iniziata!",
@@ -49,6 +55,7 @@ Config.Lang = {
         delDesc = "Se la clip non è di tuò gradimento puoi eliminarla!", 
         openTitle = "Apri Rockstar Editor", 
         openDesc = "Attenzione: Verrai disconnesso dal server!", 
+        infoKey = "Apri il Rockstar Editor",
     }
 
 }
