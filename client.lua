@@ -75,3 +75,11 @@ RegisterCommand(Config.CommandEditor, function()
 
     lib.showContext('menu_rockstar_editor')
 end)
+
+------------------------------
+---------- Key Bind ----------
+------------------------------
+
+if Config.UseKeyBind then 
+    RegisterKeyMapping(Config.CommandEditor, Config.Lang[Config.Locale].infoKey, 'keyboard', Config.KeyBind)
+end
